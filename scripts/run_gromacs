@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+"""autoMD - 全自动分子动力学模拟工具"""
+
+from autoMD.main import main
+
+if __name__ == '__main__':
+    main()
