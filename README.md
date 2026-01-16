@@ -25,13 +25,13 @@ pip install -e .
 ### 单独蛋白模拟
 
 ```bash
-run_gromacs --pdb protein.pdb
+run_gromacs --pdb protein.pdb --steps 1000000 --dt 0.002
 ```
 
 ### 蛋白-配体复合物模拟
 
 ```bash
-run_gromacs --protein protein.pdb --ligand ligand.pdb
+run_gromacs --protein protein.pdb --ligand ligand.pdb --steps 1000000 --dt 0.002
 ```
 
 ## 模拟流程
